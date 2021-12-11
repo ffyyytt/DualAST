@@ -8,6 +8,6 @@ for artist in 'claude-monet' 'paul-cezanne' 'vincent-van-gogh'
                 --image_size=1280 \
                 --ii_dir=images/validation/ \
                 --reference=images/reference/$artist/1.jpg \
-                --save_dir=images/val_res/ \
+                --save_dir=/content/gdrive/MyDrive/IPCV/images/ \
                 --ckpt_nmbr=300000
     done
