@@ -107,7 +107,7 @@ def run(extractor, classification_layer, images_df, batch_size=64, logger=Logger
 # image filenames must be in format "{content_name}_stylized_{artist_name}.jpg"
 # uncomment methods which you want to evaluate and set the paths to the folders with the stylized images
 results_dir = {
-    'ours': '../images/val_res',
+    'ours': '/content/gdrive/MyDrive/IPCV/images',
     # 'gatys': 'path/to/gatys_stylizations',
     # 'cyclegan': '',
     # 'adain': '',
